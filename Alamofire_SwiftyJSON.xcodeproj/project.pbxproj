@@ -13,7 +13,7 @@
 		1B022B4E1E1BA52100B51F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B022B4C1E1BA52100B51F9F /* Main.storyboard */; };
 		1B022B501E1BA52100B51F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B022B4F1E1BA52100B51F9F /* Assets.xcassets */; };
 		1B022B531E1BA52100B51F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B022B511E1BA52100B51F9F /* LaunchScreen.storyboard */; };
-		1B022B5B1E1BA53F00B51F9F /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B022B5A1E1BA53F00B51F9F /* NetWorkTool.swift */; };
+		1B022B5B1E1BA53F00B51F9F /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B022B5A1E1BA53F00B51F9F /* NetWorkTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		1B022B4F1E1BA52100B51F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B022B521E1BA52100B51F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B022B541E1BA52100B51F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B022B5A1E1BA53F00B51F9F /* NetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTool.swift; sourceTree = "<group>"; };
+		1B022B5A1E1BA53F00B51F9F /* NetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
 		32194C7B4828F9D6BA64CCB6 /* Pods-Alamofire_SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire_SwiftyJSON.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire_SwiftyJSON/Pods-Alamofire_SwiftyJSON.release.xcconfig"; sourceTree = "<group>"; };
 		B5BAF089360CB4ABABB242D1 /* Pods-Alamofire_SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire_SwiftyJSON.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire_SwiftyJSON/Pods-Alamofire_SwiftyJSON.debug.xcconfig"; sourceTree = "<group>"; };
 		B87AF594788CD954D2B7CCFE /* Pods_Alamofire_SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,7 @@
 				1B022B4F1E1BA52100B51F9F /* Assets.xcassets */,
 				1B022B511E1BA52100B51F9F /* LaunchScreen.storyboard */,
 				1B022B541E1BA52100B51F9F /* Info.plist */,
-				1B022B5A1E1BA53F00B51F9F /* NetWorkTool.swift */,
+				1B022B5A1E1BA53F00B51F9F /* NetWorkTools.swift */,
 			);
 			path = Alamofire_SwiftyJSON;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B022B5B1E1BA53F00B51F9F /* NetWorkTool.swift in Sources */,
+				1B022B5B1E1BA53F00B51F9F /* NetWorkTools.swift in Sources */,
 				1B022B4B1E1BA52100B51F9F /* ViewController.swift in Sources */,
 				1B022B491E1BA52100B51F9F /* AppDelegate.swift in Sources */,
 			);
